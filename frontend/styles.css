@@ -1,0 +1,54 @@
+html,
+body {
+  font-family: Consolas, monaco, monospace;
+}
+
+#chart {
+  padding: 2px;
+  
+}
+
+table {
+  width:75%;
+  height: 400px;
+
+}
+
+.charttitle {
+  text-align: left;
+}
+
+.bars td {
+  vertical-align: bottom;
+  width: 50px;
+  font-size: 0.25rem;
+}
+
+.bars div:hover {
+  opacity: 0.6;
+}
+
+.legend {
+  vertical-align: bottom;
+  padding-left: 20px;
+  text-align: left;
+  
+}
+
+.legbox {
+  display: block;
+  clear: both;
+  
+}
+
+.xaxisname {
+  margin: 5px;
+  color: #fff;
+  font-size: 77%;
+  padding: 5px;
+  float: left;
+}
+
+.one {
+    background: #f00;
+  }

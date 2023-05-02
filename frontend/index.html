@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+   Severe Weather PDP 
+</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+    <h1> Severe Weather PDP </h1>
+    <select id="state" onchange="chooseState(this)"> 
+        <option value="Louisiana"> 
+            Louisiana
+
+        </option>
+    </select>
+
+    <select id="year" onchange="chooseYear(this)"> 
+        <option value="oneyear"> 
+            One Year
+        </option>
+        <option value="fiveyear"> 
+            Five Years
+        </option>
+        <option value="tenyear"> 
+            Ten Years
+        </option>
+     </select>
+
+     <select id="weather" onchange="chooseWeather(this)"> 
+        <option value="severe"> 
+            Severe Weather
+        </option>
+        <option value="norm"> 
+            Normal Weather
+        </option>
+    </select>
+
+    <button id="submitButt" onclick="handleSubmit()"> Generate </button>
+
+    <script src="dropdown.js"> 
+    
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+    <div id="chart"></div>
+</body>
+</html>
